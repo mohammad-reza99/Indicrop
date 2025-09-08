@@ -93,6 +93,23 @@ export default function HeaderHeroSection() {
               <span className="block">EMPOWER</span>
               <span className="block">YOUR BUSINESS</span>
             </h1>
+            <p className="mt-4 sm:mt-6 text-gray-600 text-sm sm:text-base lg:text-lg max-w-md">
+              We know how large objects will act, but things on a small scale.
+            </p>
+            <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 ">
+              <a
+                href="#"
+                className="inline-flex items-center rounded-full px-6 py-3 text-sm font-semibold bg-amber-400 hover:bg-amber-500 text-gray-900 shadow-sm"
+              >
+                Get Quote Now
+              </a>
+              <a
+                href="#"
+                className="inline-flex items-center rounded-full px-6 py-3 text-sm font-semibold border border-cyan-600 text-cyan-700 hover:bg-cyan-50"
+              >
+                Learn More
+              </a>
+            </div>
           </div>
         </div>
       </section>
