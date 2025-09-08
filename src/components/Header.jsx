@@ -113,6 +113,29 @@ export default function HeaderHeroSection() {
           </div>
         </div>
       </section>
+      <section
+        className="relative z-10 px-4 sm:px-6 -mt-16 md:-mt-20"
+        aria-label="Key feature"
+      >
+        <div className="mx-auto max-w-7xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {features.map((items, index) => (
+              <article
+                key={index}
+                className={`rounded-lg p-6 shadow-xl ${items.bg}`}
+              >
+                <div
+                  className={`mb-4 inline-flex w-10 h-10 items-center justify-center rounded-b-md border ${items.border} `}
+                >
+                  {items.icon}
+                </div>
+                <h3 className="font-semibold">{items.title}</h3>
+                <p className="mt-1 text-sm opacity-90">{items.text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
     </header>
   );
 }
