@@ -4,6 +4,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import TipsCards from "./components/TipsCards";
 import About from "./components/About";
 import Brands from "./components/Brands";
+import About2 from "./components/About2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <TipsCards />
       <About />
       <Brands />
+      <About2 />
     </>
   );
 }
