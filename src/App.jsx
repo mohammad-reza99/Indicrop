@@ -5,7 +5,11 @@ import TipsCards from "./components/TipsCards";
 import About from "./components/About";
 import Brands from "./components/Brands";
 import About2 from "./components/About2";
+<<<<<<< HEAD
 
+=======
+import Footer from "./components/Footer";
+>>>>>>> 64f3df1 (feat: add Footer component to enhance site navigation and information)
 function App() {
   const [count, setCount] = useState(0);
 
@@ -17,6 +21,10 @@ function App() {
       <About />
       <Brands />
       <About2 />
+<<<<<<< HEAD
+=======
+      <Footer />
+>>>>>>> 64f3df1 (feat: add Footer component to enhance site navigation and information)
     </>
   );
 }
