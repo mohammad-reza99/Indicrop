@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import WhyChooseUs from "./components/WhyChooseUs";
 import TipsCards from "./components/TipsCards";
 import About from "./components/About";
+import Brands from "./components/Brands";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <WhyChooseUs />
       <TipsCards />
       <About />
+      <Brands />
     </>
   );
 }
