@@ -136,6 +136,39 @@ export default function HeaderHeroSection() {
           </div>
         </div>
       </section>
+      {menuOpen && (
+        <aside className="fixed inset-0 z-30 md:hidden">
+          <div
+            className="absolute inset-0 bg-black/40"
+            onClick={() => setMenuOpen(false)}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="mobile-menu-title"
+          >
+            <div
+              className="absolute top-0 right-0 w-64 h-full bg-white shadow-lg p-6"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                onClick={() => setMenuOpen(false)}
+                className="absolute top-3 right-4 p-2 rounded hover:bg-gray-100"
+              >
+                <X className="w-6 h-6" />
+              </button>
+              <h2 id="mobile-menu-title" className="sr-only">
+                Mobile navigation
+              </h2>
+              <nav className="mt-10 flex flex-col gap-6 text-lg text-gray-800">
+                {["Home", "Product", "Pricing", "Contact"].map((item) => (
+                  <a key={item} href="#" className="hover:text-cyan-700">
+                    {item}
+                  </a>
+                ))}
+              </nav>
+            </div>
+          </div>
+        </aside>
+      )}
     </header>
   );
 }
