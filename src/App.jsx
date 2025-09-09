@@ -1,30 +1,22 @@
-import { useState } from "react";
-import Header from "./components/Header";
-import WhyChooseUs from "./components/WhyChooseUs";
-import TipsCards from "./components/TipsCards";
-import About from "./components/About";
-import Brands from "./components/Brands";
-import About2 from "./components/About2";
-<<<<<<< HEAD
-
-=======
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
->>>>>>> 64f3df1 (feat: add Footer component to enhance site navigation and information)
-function App() {
-  const [count, setCount] = useState(0);
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import Contact from "./pages/Contact";
 
+function App() {
   return (
     <>
-      <Header />
-      <WhyChooseUs />
-      <TipsCards />
-      <About />
-      <Brands />
-      <About2 />
-<<<<<<< HEAD
-=======
-      <Footer />
->>>>>>> 64f3df1 (feat: add Footer component to enhance site navigation and information)
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
