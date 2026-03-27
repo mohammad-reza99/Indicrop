@@ -38,6 +38,13 @@ A modern and responsive business landing page built with React, Vite, Tailwind C
 - About
 - About2
 
+## screenshots
+
+![Home Page](./public/screenshots/home.png)
+![Hero Section](./public/screenshots/hero.png)
+![Main Section](./public/screenshots/main.png)
+![footer](./public/screenshots/footer.png)
+
 ## Getting Started
 
 Clone the project:
@@ -48,19 +55,21 @@ Clone the project:
 
 ---
 
-.Live Demo
+Live Demo
 
-. Add your Vercel deployment link here.
+ ## Live Demo
+
+[View Live Project](https://indicrop.vercel.app)
 
  Project Goal
 
 . This project was built as a modern business landing page to practice component-based architecture, routing, responsive layout design, and reusable UI development with React.
 
 . Future Improvements
- Improve About and Contact pages
- Replace placeholder content with real business copy
- Add smooth scrolling and better CTA behavior
- Improve accessibility
- Add form validation for newsletter and contact form
- Refine mobile navigation experience
+ - Improve About and Contact pages
+ - Replace placeholder content with real business copy
+ - Add smooth scrolling and better CTA behavior
+ - Improve accessibility
+ - Add form validation for newsletter and contact form
+ - Refine mobile navigation experience
 ```
