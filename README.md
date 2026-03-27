@@ -61,6 +61,6 @@ A modern and responsive business landing page built with React, Vite, Tailwind C
 
 Clone the project:
 
-```bash
-https://github.com/mohammad-reza99/Indicrop.git
-```
+## 🌐 Live Demo
+
+👉 [View Live Project](https://indicrop.vercel.app)
