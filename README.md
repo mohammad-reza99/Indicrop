@@ -60,6 +60,18 @@ A modern and responsive business landing page built with React, Vite, Tailwind C
 ## 🚀 Getting Started
 
 Clone the project:
+🎯 Project Goal
+
+This project was built as a modern business landing page to practice component-based architecture, routing, responsive layout design, and reusable UI development with React.
+
+🔧 Future Improvements
+
+- Improve About and Contact pages
+- Replace placeholder content with real business copy
+- Add smooth scrolling and better CTA behavior
+- Improve accessibility
+- Add form validation for newsletter and contact form
+- Refine mobile navigation experience
 
 ## 🌐 Live Demo
 
