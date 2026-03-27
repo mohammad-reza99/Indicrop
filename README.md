@@ -50,10 +50,10 @@ A modern and responsive business landing page built with React, Vite, Tailwind C
 
 ## 📸 Screenshots
 
-![Home Page](./screenshots/home.png)
-![Hero Section](./screenshots/hero.png)
-![Main Section](./screenshots/main.png)
-![Footer](./screenshots/footer.png)
+![Home Page](./public/screenshots/home.png)
+![Hero Section](./public/screenshots/hero.png)
+![Main Section](./public/screenshots/main.png)
+![Footer](./public/screenshots/footer.png)
 
 ---
 
@@ -62,5 +62,5 @@ A modern and responsive business landing page built with React, Vite, Tailwind C
 Clone the project:
 
 ```bash
-git clone https://github.com/mohammad-reza99/Indicrop.git
+https://github.com/mohammad-reza99/Indicrop.git
 ```
