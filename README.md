@@ -2,7 +2,9 @@
 
 A modern and responsive business landing page built with React, Vite, Tailwind CSS, and React Router.
 
-## Features
+---
+
+## ✨ Features
 
 - Responsive modern landing page
 - Reusable React components
@@ -12,7 +14,9 @@ A modern and responsive business landing page built with React, Vite, Tailwind C
 - About and Contact pages
 - Icon integration with Lucide React and React Icons
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 - React
 - Vite
@@ -21,13 +25,17 @@ A modern and responsive business landing page built with React, Vite, Tailwind C
 - Lucide React
 - React Icons
 
-## Pages
+---
+
+## 📄 Pages
 
 - Home
 - About Us
 - Contact
 
-## Components
+---
+
+## 🧩 Components
 
 - Navbar
 - Hero
@@ -38,38 +46,21 @@ A modern and responsive business landing page built with React, Vite, Tailwind C
 - About
 - About2
 
-## screenshots
+---
 
-![Home Page](./public/screenshots/home.png)
-![Hero Section](./public/screenshots/hero.png)
-![Main Section](./public/screenshots/main.png)
-![footer](./public/screenshots/footer.png)
+## 📸 Screenshots
 
-## Getting Started
+![Home Page](./screenshots/home.png)
+![Hero Section](./screenshots/hero.png)
+![Main Section](./screenshots/main.png)
+![Footer](./screenshots/footer.png)
+
+---
+
+## 🚀 Getting Started
 
 Clone the project:
 
 ```bash
-. git clone https://github.com/mohammad-reza99/Indicrop.git
-
-
----
-
-Live Demo
-
- ## Live Demo
-
-[View Live Project](https://indicrop.vercel.app)
-
- Project Goal
-
-. This project was built as a modern business landing page to practice component-based architecture, routing, responsive layout design, and reusable UI development with React.
-
-. Future Improvements
- - Improve About and Contact pages
- - Replace placeholder content with real business copy
- - Add smooth scrolling and better CTA behavior
- - Improve accessibility
- - Add form validation for newsletter and contact form
- - Refine mobile navigation experience
+git clone https://github.com/mohammad-reza99/Indicrop.git
 ```
