@@ -1,12 +1,66 @@
-# React + Vite
+# Indicorp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive business landing page built with React, Vite, Tailwind CSS, and React Router.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive modern landing page
+- Reusable React components
+- Client-side routing with React Router
+- Clean business-oriented UI
+- Newsletter section
+- About and Contact pages
+- Icon integration with Lucide React and React Icons
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Lucide React
+- React Icons
+
+## Pages
+
+- Home
+- About Us
+- Contact
+
+## Components
+
+- Navbar
+- Hero
+- WhyChooseUs
+- TipsCards
+- Brands
+- Footer
+- About
+- About2
+
+## Getting Started
+
+Clone the project:
+
+```bash
+. git clone https://github.com/mohammad-reza99/Indicrop.git
+
+
+---
+
+.Live Demo
+
+. Add your Vercel deployment link here.
+
+ Project Goal
+
+. This project was built as a modern business landing page to practice component-based architecture, routing, responsive layout design, and reusable UI development with React.
+
+. Future Improvements
+ Improve About and Contact pages
+ Replace placeholder content with real business copy
+ Add smooth scrolling and better CTA behavior
+ Improve accessibility
+ Add form validation for newsletter and contact form
+ Refine mobile navigation experience
+```
